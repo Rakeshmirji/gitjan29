@@ -33,7 +33,7 @@ class HomePage(BaseClass):
             time.sleep(10)
             if "Accounts | InsuredMine" in self.driver.title:
                 wa.cell(i, 3).value="test passed"
-                time.sleep(10)
+                time.sleep(20)
                 self.driver.find_element(By.XPATH,"//a[@class='rounded-bg']/img").click()
                 self.driver.find_element(By.XPATH, "//a[@class='rounded-bg']/img").click()
                 time.sleep(2)
