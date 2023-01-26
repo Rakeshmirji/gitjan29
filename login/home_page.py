@@ -45,7 +45,7 @@ class HomePage(BaseClass):
                 wa.cell(i, 3).value = "test failed"
                 self.driver.find_element(By.XPATH, "//input[@placeholder='Email']").clear()
                 self.driver.find_element(By.XPATH, "//input[@placeholder='Password']").clear()
-        wb.save("result1.xlsx")
+        wb.save("result3.xlsx")
     def test_create_account(self):
         try:
             log=self.getLogger()
