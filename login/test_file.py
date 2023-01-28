@@ -4,7 +4,7 @@ import pytest
 from selenium.webdriver.common.by import By
 from login.home_page import HomePage
 
-
+#for loggin
 @pytest.mark.usefixtures("setup")
 class Test_001:
     def test_001(self):
